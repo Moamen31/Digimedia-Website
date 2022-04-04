@@ -772,6 +772,11 @@ header .container button:hover{
     grid-template-rows: repeat(3, 250px);
     column-gap: 45px;
     row-gap: 25px;
+    place-items: center;
+}
+@media (max-width:767px){
+    .news .grid{
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 }
 .news .grid .box .info:nth-child(2){
     padding: 25px;

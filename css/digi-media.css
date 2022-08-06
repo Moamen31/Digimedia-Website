@@ -777,6 +777,7 @@ header .container button:hover{
 @media (max-width:767px){
     .news .grid{
     grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    }
 }
 .news .grid .box .info:nth-child(2){
     padding: 25px;
